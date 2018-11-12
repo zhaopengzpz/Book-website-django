@@ -1,0 +1,1110 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="本页版权 www.zongheng.com 纵横中文网所有。All Rights Reserved"/>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="https://static.zongheng.com/favicon.ico" />
+    <link rel="stylesheet" href="{%static 'ireader/css/basic.min.css'%}" />
+    <link rel="stylesheet" href="{%static 'ireader/css/index.min.css'%}" />
+    <title>小说,小说网-纵横中文网|最热门的免费小说网</title>
+	<meta name="keywords" content="小说,小说网,免费小说,纵横中文网"/>
+	<meta name="description" content="纵横中文网,最热门的免费小说网站,提供玄幻小说、网游小说、言情小说、穿越小说、都市小说等免费小说在线阅读与下载。大神作品齐聚纵横,最新章节每日更新。"/>
+</head>
+<body scriptSign="index" _pgid="1">
+
+    
+<div class="head-fixed head-simple">
+   
+
+<div class="wrap">
+       <div class="head-top clearfix">
+           <div class="logo imgbox fl"><a href="http://www.zongheng.com"><img src="{%static 'ireader/picture/logo_1.png'%}" alt="logo"></a></div>
+        <form name="searchForm" method="get" action="http://search.zongheng.com/s" target="_blank">
+           <div class="search-box">
+          <input class="search-text fl" name="keyword" type="text" placeholder="雪中悍刀行" autocomplete="off" disableautocomplete value="">
+          <input type="submit" class="search-btn fr" >
+           </div>
+        </form>
+           <div class="pay fr"><a class="user_pay" href="http://pay.zongheng.com" target="_blank">充值</a></div>
+           <div class="menu clearfix">
+               <a href="http://www.zongheng.com">首页</a>
+               <div class="cate tabA">
+                   <a href="##">分类<em class="icon"></em></a>
+                   <div class="tabA-float cate-cell">
+                       <ul>
+                       	<li><a href="http://www.zongheng.com/category/1.html">奇幻玄幻</a></li>
+                        <li><a href="http://www.zongheng.com/category/3.html">武侠仙侠</a></li>
+                        <li><a href="http://www.zongheng.com/category/6.html">历史军事</a></li>
+                        <li><a href="http://www.zongheng.com/category/9.html">都市娱乐</a></li>
+                        <li><a href="http://www.zongheng.com/category/21.html">竞技同人</a></li>
+                        <li><a href="http://www.zongheng.com/category/15.html">科幻游戏</a></li>
+                        <li><a href="http://www.zongheng.com/category/18.html">悬疑灵异</a></li>
+                        <li><a href="http://www.zongheng.com/category/40.html">二次元</a></li>
+                       </ul>
+                   </div>
+               </div>
+               <a href="http://www.zongheng.com/rank.html">排行</a>
+               <a href="http://www.zongheng.com/store.html" >书库</a>
+               <a href="http://www.zongheng.com/store/c0/c0/b0/u0/p1/v9/s1/t0/u0/i1/ALL.html">完本</a>
+               <a href="http://author.zongheng.com" target="_blank">作者专区</a>
+           </div>
+            
+<div class="right-wrap-login ud_userTox">
+    <div class="unlogin ud_unlogin clearfix">
+        <div class="login fl"><a class="user_login" href="https://passport.zongheng.com">登录</a></div>
+        <div class="regist fl"><a class="user_register" href="https://passport.zongheng.com/webreg">注册</a></div>
+    </div>
+    <div class="logon ud_loged clearfix" style="display:none;">
+        <div class="user tabA imgbox">
+        <img  class="ud_avatar ud_goUsrCenter" src="{%static 'ireader/picture/book.png'%}" alt="" target="_blank">
+            <div class="user-blank tabA-float">
+                <a href="javascript:void(0);" class="quit ud_logout">退出</a>
+                <div class="user-name ud_goUsrCenter"><span class="ud_nickName"></span><em class="icon"></em></div>
+                <div class="user-info clearfix">
+                    <div class="user-info-cell ud_money">
+                        <span class="item_loading"></span>
+                    </div>
+                    <div class="user-info-cell ud_ticket">
+                        <span class="item_loading"></span>
+                    </div>
+                    <div class="user-info-cell ud_mticket">
+                        <span class="item_loading"></span>
+                    </div>
+                </div>
+                <a href="http://pay.zongheng.com" class="btn" target="_blank">立即充值</a>
+            </div>
+        </div>
+        <div class="message">
+            <a href="http://home.zongheng.com/msgIn.do" class="mes" target="_blank">消息(<span class="ud_umessage"></span>)</a>
+        </div>
+        <div class="shelf"><a href="http://home.zongheng.com/favoritesBook.do" target="_blank">书架</a></div>
+        <div class="foot-mark tabA">
+            <span class="mark clearfix">历史<em class="icon"></em></span>
+            <div class="tabA-float float-mark clearfix">
+                <!-- loading -->
+                <div class="ud_hisloading">
+                        <span class="item_loading"></span>
+                </div>
+                <!-- 没有记录 -->
+                <div class="ud_noHistory" style="display: none">
+                  <h2>亲爱的书友，您暂时没有阅读记录~</h2>
+                  <div class="tips">阅读记录只保存最近阅读的5本小说</div>
+                  <div class="enter"><a href="http://home.zongheng.com/favoritesBook.do" target="_blank">进入我的书架</a></div>
+                </div>
+                <!-- 有记录 -->
+                <div class="ud_hasHistory" style="display: none"><ul class="mark-list"></ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+    <div class="wrap">
+        
+
+<div class="head">
+	<div class="head-top clearfix">
+		<div class="logo imgbox fl">
+			<a href="http://www.zongheng.com"><img
+				src="{%static 'ireader/picture/logo_1.png'%}" alt="logo"></a>
+		</div>
+		<form id="commSearch" name="searchForm" method="get"
+			action="http://search.zongheng.com/s" target="_blank">
+			<div class="search-box fl" data-hook="searchSuggest">
+				<input class="search-text fl" name="keyword" type="text"
+					placeholder="雪中悍刀行" autocomplete="off" disableautocomplete /> <input
+					type="submit" class="search-btn fr" />
+			</div>
+		</form>
+		<div class="pay fr">
+			<a class="user_pay" href="http://pay.zongheng.com" target="_blank">充值</a>
+		</div>
+		
+<div class="right-wrap-login ud_userTox">
+    <div class="unlogin ud_unlogin clearfix">
+        <div class="login fl"><a class="user_login" href="https://passport.zongheng.com">登录</a></div>
+        <div class="regist fl"><a class="user_register" href="https://passport.zongheng.com/webreg">注册</a></div>
+    </div>
+    <div class="logon ud_loged clearfix" style="display:none;">
+        <div class="user tabA imgbox">
+        <img  class="ud_avatar ud_goUsrCenter" src="{%static 'ireader/picture/book.png'%}" alt="" target="_blank">
+            <div class="user-blank tabA-float">
+                <a href="javascript:void(0);" class="quit ud_logout">退出</a>
+                <div class="user-name ud_goUsrCenter"><span class="ud_nickName"></span><em class="icon"></em></div>
+                <div class="user-info clearfix">
+                    <div class="user-info-cell ud_money">
+                        <span class="item_loading"></span>
+                    </div>
+                    <div class="user-info-cell ud_ticket">
+                        <span class="item_loading"></span>
+                    </div>
+                    <div class="user-info-cell ud_mticket">
+                        <span class="item_loading"></span>
+                    </div>
+                </div>
+                <a href="http://pay.zongheng.com" class="btn" target="_blank">立即充值</a>
+            </div>
+        </div>
+        <div class="message">
+            <a href="http://home.zongheng.com/msgIn.do" class="mes" target="_blank">消息(<span class="ud_umessage"></span>)</a>
+        </div>
+        <div class="shelf"><a href="http://home.zongheng.com/favoritesBook.do" target="_blank">书架</a></div>
+        <div class="foot-mark tabA">
+            <span class="mark clearfix">历史<em class="icon"></em></span>
+            <div class="tabA-float float-mark clearfix">
+                <!-- loading -->
+                <div class="ud_hisloading">
+                        <span class="item_loading"></span>
+                </div>
+                <!-- 没有记录 -->
+                <div class="ud_noHistory" style="display: none">
+                  <h2>亲爱的书友，您暂时没有阅读记录~</h2>
+                  <div class="tips">阅读记录只保存最近阅读的5本小说</div>
+                  <div class="enter"><a href="http://home.zongheng.com/favoritesBook.do" target="_blank">进入我的书架</a></div>
+                </div>
+                <!-- 有记录 -->
+                <div class="ud_hasHistory" style="display: none"><ul class="mark-list"></ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	</div>
+	<div class="nav clearfix">
+		<div class="menu-left fl">
+			<a class="active"
+				href="http://www.zongheng.com">首页<em></em></a> <a
+				
+				href="http://book.zongheng.com/store.html">书库<em></em></a> <a
+				
+				href="http://book.zongheng.com/rank.html">排行<em></em></a> <a
+				
+				href="http://book.zongheng.com/store/c0/c0/b0/u0/p1/v9/s1/t0/u0/i1/ALL.html">完本<em></em></a>
+			<a href="http://huayu.baidu.com" target="_blank">花语女生网<em></em></a>
+			<div class="app-menu tabA">
+				<a href="" class="phone">移动端</a>
+				<div class="app-float tabA-float">
+					<div class="tit">纵横小说 原创精品</div>
+					<div class="imgbox tabC_wap">
+						<div class="tabC" style="display: block;">
+							<img src="{%static 'ireader/picture/ad-float.png'%}"
+								alt="">
+						</div>
+						<div class="tabC">
+							<img src="{%static 'picture/ios-float.png'%}"
+								alt="">
+						</div>
+						<div class="tabC">
+							<img src="{%static 'picture/wx-float.png'%}"
+								alt="">
+						</div>
+					</div>
+					<div class="tabT_wap app-down">
+						<span class="tabT ad active"></span> <span class="tabT ios"></span>
+						<span class="tabT wx"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-right fr">
+			<a href="http://author.zongheng.com" class="author_zone" target="_blank">作者专区<em></em></a>
+			<a href="http://game.zongheng.com" class="game_center" target="_blank">游戏中心<em></em></a>
+		</div>
+	</div>
+</div>
+       <!-- 1.	首页头部广告位  -->
+
+        <div class="top-one-blank clearfix">
+            <div class="top-one-blank-left fl">
+                <div class="category">
+                    <div class="title">作品分类</div>
+                    <ul class="cate-list">
+                        <li><a href="{% url 'list'%}" title="奇幻玄幻" target="_blank" class="cate1" >奇幻玄幻</a><a href="{% url 'list'%}" title="武侠仙侠" target="_blank" class="cate2">武侠仙侠</a></li>
+                        <li><a href="{% url 'list'%}" title="历史军事" target="_blank" class="cate3">历史军事</a><a href="{% url 'list'%}" title="都市娱乐" target="_blank" class="cate4">都市娱乐</a></li>
+                        <li><a href="{% url 'list'%}" title="竞技同人" target="_blank" class="cate5">竞技同人</a><a href="{% url 'list'%}" title="科幻游戏" target="_blank" class="cate6">科幻游戏</a></li>
+                        <li><a href="{% url 'list'%}" title="悬疑灵异" target="_blank" class="cate7">悬疑灵异</a><a href="{% url 'list'%}" title="二次元" target="_blank" class="cate8">二次元</a></li>
+                        <li><a href="{% url 'list'%}" title="花语女生" target="_blank" class="cate9">花语女生</a><a href="{% url 'list'%}" title="全部作品" target="_blank" class="cate-all">全部作品</a></li>
+
+                    </ul>
+                </div>
+                <div class="h5-blank"></div>
+      
+            </div>
+            <div class="top-one-blank-mid fl">
+                <div class="index_tpic_loading">正在读取中···</div>
+                <div class="index_tpic" id="index_tpic">
+                    <ul class="swiper-container">
+                     <!--幻灯片-->
+                        {% for bk in slideList %}
+                        <li class="swiper-item">
+                            <a href="{% url 'detail' bk.id %}" target="_blank"><img src="{{ bk.spic.url }}" alt="{{ bk.sname }}">
+                            <div class="scrtxt">{{ bk.context }}</div>
+                            </a>
+                        </li>
+                  	    {% endfor %}
+
+                  	
+                    </ul>
+                    <div class="arr_left"></div>
+                    <div class="arr_right"></div>
+                    <div class="thumb_dot">
+                   
+                        <em class="active"></em>
+                        
+                        <em ></em>
+                        
+                        <em ></em>
+                        
+                        <em ></em>
+                        
+                        <em ></em>
+                        
+                    </div>
+                </div>
+                <div class="h5-blank"></div>
+
+            </div>
+            <div class="top-one-blank-right fr">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">编者推荐</div>
+                        <div class="more fr"><a class="more-link" href="http://www.zongheng.com/rank/details.html?rt=1&d=1"  target="_blank">更多</a></div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="lists">
+                        <ul id="monthTicketRankList">
+                        {%for bkinfo in bookInfo%}
+                         	<li><span>{{ bkinfo.author }}</span><em class="top1 list_icon">1</em><a href="{%url 'detail' bkinfo.id %}" target="_blank" title="{{ bkinfo.bname }}">{{ bkinfo.bname }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="h5-blank"></div>
+            </div>
+        </div>
+
+        <!-- 2.	首页一屏幕下通栏广告位（广告/游戏）。 -->
+
+        <div class="top-two-blank clearfix">
+            <div class="top-two-blank-left fl">
+                <!-- 轮播a -->
+                <div class="top-title clearfix swiper-title">
+                    <div class="title fl">经典完本</div>
+                    <div class="more fr">
+                        <a class="more-link" href="http://book.zongheng.com/store/c0/c0/b0/u0/p1/v9/s1/t0/u0/i1/ALL.html" target="_blank">更多</a>
+                    </div>
+                </div>
+                <div class="compile overbook">
+                    <div class="swiper-wrapper small-swiper">
+                         <ul class="swiper-container sclbook-over" style="height: 200px">
+                            {% for bk in Books%}
+                            <li class="swiper-item" data-url="{% url 'detail' bk.id%}" >
+                                <img src="{{ bk.bpic.url }}">
+                            </li>
+                            {% endfor %}
+
+
+                        </ul>
+                        <div class="swiper-book swiper-infobox">
+                        {% for bk in Books%}
+                            <div class="itemInfo" style="display: none;">
+                                <a href="{% url 'detail' bk.id %}" class="name" title="都市玄门医王" target="_blank">{{ bk.bname }}</a>
+                                <a href="{% url 'detail' bk.id %}" class="author-text" title="超爽黑啤" target="_blank">{{ bk.author }}</a>
+                                <p class="cate-text">
+                                    <a href="{% url 'detail' bk.id %}" target="_blank" title="都市娱乐">{{ bk.btype }}</a> | <span>{{ bk.words }}万&nbsp;字</span>
+                                </p>
+                                <span class="intr intr-text">{{ bk.context }}</span>
+                                <a href="{% url 'detail' bk.id %}" class="a-link animation_opacity" target="_blank">立即阅读</a>
+                            </div>
+                        {% endfor %}
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 轮播a end -->
+            </div>
+            <div class="top-two-blank-mid fl">
+                <div class="tab-lists-two">
+                    <div class="top-title clearfix">
+                        <div class="title fl">品书试读</div>
+                    </div>
+                    <div class="mind-showbook clearfix">
+                    {% for bk in Books %}
+                        <div class="mind-book">
+                            <div class="imgbox img-book fl"><a href="{% url 'detail' bk.id%}" target="_blank"><img src="{{ bk.bpic.url }}" alt="{{ bk.bname }}"></a></div>
+                            <div class="book-info fr">
+                                <div class="bookname" title="{{ bk.id}}"><a href="{{ bk.bname}}" target="_blank">{{ bk.bname }}</a></div>
+                                <p class="info">{{ bk.context }}</p>
+                                <div class="author" title="{{ bk.author }}"><a href="http://home.zongheng.com/show/userInfo/1746723.html" target="_blank">{{ bk.author }}</a></div>
+                                <a class="cate" href="http://www.zongheng.com/category/9.html" target="_blank" title="{{ bk.btype }}">{{ bk.btype }}</a>
+                            </div>
+                        </div>
+                       {% endfor %}
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="top-two-blank-right fr">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">新书榜</div>
+                        <div class="more fr"><a class="more-link" href="http://www.zongheng.com/rank/details.html?rt=4&d=1" target="_blank">更多</a></div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="lists">
+                        <ul>
+                        
+                            <li><span>55067</span><em class="top1 list_icon">1</em><a href="http://book.zongheng.com/book/772277.html" target="_blank" title="重生之奶爸医圣"> 重生之奶爸医圣 </a></li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h40-blank"></div>
+         <div class="h40-blank"></div>
+       <div class="bd-blanks clearfix">
+            <div class="bd-list">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">24小时畅销榜</div>
+                        <div class="more fr"><a class="more-link" href="http://www.zongheng.com/rank/details.html?rt=3&d=1" target="_blank">更多</a></div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="line"></div>
+                    <div class="lists">
+                     
+                        <div class="list-box">
+                           
+                            <div class="list-b" style="display:block;">
+                                <em class="top1 list_icon">1</em>
+                                <a class="title" href="http://book.zongheng.com/book/672340.html" target="_blank" title="剑来">剑来</a>
+                                <a class="author"  href="http://home.zongheng.com/show/userInfo/166130.html"  target="_blank" title="烽火戏诸侯">烽火戏诸侯</a>
+                                <a class="cate" href="http://www.zongheng.com/category/3.html" target="_blank" title="武侠仙侠">[武侠仙侠]</a>
+                                <span class="count" target="_blank" title="260.2万">260.2万&nbsp;字</span>
+                                <div class="imgbox list-img"><a href="http://book.zongheng.com/book/672340.html" target="_blank"><img src="picture/1496234539057.jpg" alt="剑来"></a></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >烈焰滔滔</span>
+                            
+                            <em class="top2 list_icon">2</em>
+                            <a href="http://book.zongheng.com/book/411993.html" target="_blank" title="最强狂兵">
+                            	最强狂兵</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >火星引力</span>
+                            
+                            <em class="top3 list_icon">3</em>
+                            <a href="http://book.zongheng.com/book/408586.html" target="_blank" title="逆天邪神">
+                            	逆天邪神</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >烽火戏诸侯</span>
+                            
+                            <em class="top4 list_icon">4</em>
+                            <a href="http://book.zongheng.com/book/189169.html" target="_blank" title="雪中悍刀行">
+                            	雪中悍刀行</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >天蚕土豆</span>
+                            
+                            <em class="top5 list_icon">5</em>
+                            <a href="http://book.zongheng.com/book/685640.html" target="_blank" title="元尊">
+                            	元尊</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >烟雨江南</span>
+                            
+                            <em class="top6 list_icon">6</em>
+                            <a href="http://book.zongheng.com/book/342974.html" target="_blank" title="永夜君王">
+                            	永夜君王</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >乱世狂刀</span>
+                            
+                            <em class="top7 list_icon">7</em>
+                            <a href="http://book.zongheng.com/book/682920.html" target="_blank" title="圣武星辰">
+                            	圣武星辰</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >萧瑾瑜</span>
+                            
+                            <em class="top8 list_icon">8</em>
+                            <a href="http://book.zongheng.com/book/547156.html" target="_blank" title="天骄战纪">
+                            	天骄战纪</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >步行天下</span>
+                            
+                            <em class="top9 list_icon">9</em>
+                            <a href="http://book.zongheng.com/book/635570.html" target="_blank" title="医品宗师">
+                            	医品宗师</a>
+                            </div>
+                             
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                            <div class="list-a" >
+                            <span class="author" >贪睡的龙</span>
+                            
+                            <em class="top10 list_icon">10</em>
+                            <a href="http://book.zongheng.com/book/468543.html" target="_blank" title="十方神王">
+                            	十方神王</a>
+                            </div>
+                             
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bd-list">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">用户周点击榜</div>
+                        <div class="more fr"><a class="more-link" href="http://www.zongheng.com/rank/details.html?rt=5&d=1" target="_blank">更多</a></div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="line"></div>
+                    <div class="lists">
+                    
+                        <div class="list-box">
+                        
+                            <div class="list-b" style="display:block;">
+                                <em class="top1 list_icon">1</em>
+                                <a class="title" href="http://book.zongheng.com/book/730066.html" target="_blank" title="点道为止">点道为止</a>
+                                <a class="author" title="梦入神机" href="http://home.zongheng.com/show/userInfo/284372.html"   target="_blank" title="">梦入神机</a>
+                                <a class="cate" href="http://www.zongheng.com/category/9.html" target="_blank" title="都市娱乐">[都市娱乐]</a>
+                                <span class="count" target="_blank" title="2590882">2590882&nbsp;点击数</span>
+                                <div class="imgbox list-img"><a href="http://book.zongheng.com/book/730066.html" target="_blank"><img src="{%static 'ireader/picture/2c1fe294306eea58638e7d07a12a7628.jpeg'%}" alt="点道为止"></a></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>2296898</span><em class="top2 list_icon">2</em><a href="http://book.zongheng.com/book/632434.html" target="_blank" title="最强逆袭">最强逆袭</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>2240881</span><em class="top3 list_icon">3</em><a href="http://book.zongheng.com/book/635570.html" target="_blank" title="医品宗师">医品宗师</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>2147080</span><em class="top4 list_icon">4</em><a href="http://book.zongheng.com/book/603738.html" target="_blank" title="妙医鸿途">妙医鸿途</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>2137301</span><em class="top5 list_icon">5</em><a href="http://book.zongheng.com/book/682920.html" target="_blank" title="圣武星辰">圣武星辰</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1811936</span><em class="top6 list_icon">6</em><a href="http://book.zongheng.com/book/751819.html" target="_blank" title="长宁帝军">长宁帝军</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1747428</span><em class="top7 list_icon">7</em><a href="http://book.zongheng.com/book/309318.html" target="_blank" title="祭炼山河">祭炼山河</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1708663</span><em class="top8 list_icon">8</em><a href="http://book.zongheng.com/book/665301.html" target="_blank" title="医等狂兵">医等狂兵</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1172838</span><em class="top9 list_icon">9</em><a href="http://book.zongheng.com/book/685640.html" target="_blank" title="元尊">元尊</a></div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1160987</span><em class="top10 list_icon">10</em><a href="http://book.zongheng.com/book/510426.html" target="_blank" title="锦衣春秋">锦衣春秋</a></div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bd-list">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">周推荐榜</div>
+                        <div class="more fr"><a class="more-link" href="http://www.zongheng.com/rank/details.html?rt=6&d=1" target="_blank">更多</a></div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="line"></div>
+                    <div class="lists">
+                    
+                        <div class="list-box">
+                        
+                            <div class="list-b" style="display:block;">
+                                <em class="top1 list_icon">1</em>
+                                <a class="title" href="http://book.zongheng.com/book/730066.html" target="_blank" title="点道为止">点道为止</a>
+                                <a class="author"  title="梦入神机" href="http://home.zongheng.com/show/userInfo/284372.html"  target="_blank" title="">梦入神机</a>
+                                <a class="cate"  href="http://www.zongheng.com/category/9.html" target="_blank" title="都市娱乐">[都市娱乐]</a>
+                                <span class="count"  target="_blank" title="1379131">1379131&nbsp;推荐票</span>
+                                <div class="imgbox list-img"><a href="http://book.zongheng.com/book/730066.html" target="_blank"><img src="{%static 'ireader/picture/2c1fe294306eea58638e7d07a12a7628.jpeg'%}" alt="点道为止"></a></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>1088348</span>
+	                            <em class="top2 list_icon">2</em>
+	                            <a href="http://book.zongheng.com/book/714691.html"" target="_blank" title="绝命毒尸">绝命毒尸</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>684040</span>
+	                            <em class="top3 list_icon">3</em>
+	                            <a href="http://book.zongheng.com/book/510426.html"" target="_blank" title="锦衣春秋">锦衣春秋</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>409514</span>
+	                            <em class="top4 list_icon">4</em>
+	                            <a href="http://book.zongheng.com/book/682920.html"" target="_blank" title="圣武星辰">圣武星辰</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>142185</span>
+	                            <em class="top5 list_icon">5</em>
+	                            <a href="http://book.zongheng.com/book/665301.html"" target="_blank" title="医等狂兵">医等狂兵</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>45592</span>
+	                            <em class="top6 list_icon">6</em>
+	                            <a href="http://book.zongheng.com/book/751819.html"" target="_blank" title="长宁帝军">长宁帝军</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>44526</span>
+	                            <em class="top7 list_icon">7</em>
+	                            <a href="http://book.zongheng.com/book/635570.html"" target="_blank" title="医品宗师">医品宗师</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>44176</span>
+	                            <em class="top8 list_icon">8</em>
+	                            <a href="http://book.zongheng.com/book/632434.html"" target="_blank" title="最强逆袭">最强逆袭</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>44135</span>
+	                            <em class="top9 list_icon">9</em>
+	                            <a href="http://book.zongheng.com/book/309318.html"" target="_blank" title="祭炼山河">祭炼山河</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                        
+                            <div class="list-a" ><span>42635</span>
+	                            <em class="top10 list_icon">10</em>
+	                            <a href="http://book.zongheng.com/book/688697.html"" target="_blank" title="平天策">平天策</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bd-list">
+                <div class="tab-lists">
+                    <div class="top-title clearfix">
+                        <div class="title fl">渠道榜</div>
+                    </div>
+                    <div class="h10-blank"></div>
+                    <div class="line"></div>
+                    <div class="lists">
+                    
+                        <div class="list-box">
+                           
+                            <div class="list-b" style="display:block;">
+                                <em class="top1 list_icon">1</em>
+                                <a class="title" href="http://book.zongheng.com/book/411993.html" target="_blank" title="最强狂兵">最强狂兵</a>
+                                <a class="author"  href="http://home.zongheng.com/show/userInfo/331413.html"  target="_blank" title="烈焰滔滔">烈焰滔滔</a>
+                                <a class="cate" href="category/9.html" target="_blank" title="都市娱乐">[都市娱乐]</a>
+                                <span class="count"  target="_blank" title="1028.1万">1028.1万&nbsp;字</span>
+                                <div class="imgbox list-img"><a href="http://book.zongheng.com/book/411993.html" target="_blank"><img src="picture/1434416579785.jpg" alt="最强狂兵"></a></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>一叶青天</span>
+                            <em class="top2 list_icon">2</em><a href="http://book.zongheng.com/book/431145.html" target="_blank" title="盖世帝尊">盖世帝尊</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>赤焰圣歌</span>
+                            <em class="top3 list_icon">3</em><a href="http://book.zongheng.com/book/390021.html" target="_blank" title="极品透视">极品透视</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>青鸾峰上</span>
+                            <em class="top4 list_icon">4</em><a href="http://book.zongheng.com/book/435710.html" target="_blank" title="无敌剑域">无敌剑域</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>火星引力</span>
+                            <em class="top5 list_icon">5</em><a href="http://book.zongheng.com/book/408586.html" target="_blank" title="逆天邪神">逆天邪神</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>天蚕土豆</span>
+                            <em class="top6 list_icon">6</em><a href="http://book.zongheng.com/book/685640.html" target="_blank" title="元尊">元尊</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>烽火戏诸侯</span>
+                            <em class="top7 list_icon">7</em><a href="http://book.zongheng.com/book/189169.html" target="_blank" title="雪中悍刀行">雪中悍刀行</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>唐玉</span>
+                            <em class="top8 list_icon">8</em><a href="http://book.zongheng.com/book/454178.html" target="_blank" title="陆少的暖婚新妻">陆少的暖婚新妻</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>覆手</span>
+                            <em class="top9 list_icon">9</em><a href="http://book.zongheng.com/book/470711.html" target="_blank" title="透视高手">透视高手</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="list-box">
+                           
+                             <div class="list-a" >
+                            <span>唐小涵</span>
+                            <em class="top10 list_icon">10</em><a href="http://book.zongheng.com/book/608830.html" target="_blank" title="奉子闪婚：鲜妻不准逃">奉子闪婚：鲜妻不准逃</a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h30-blank"></div>
+        <div class="h30-blank"></div>
+
+        <div class="h30-blank"></div>
+        <div class="new_chapter">
+            <div class="title">
+                <div class="date tabT_wap">
+                    <span class="tabT active">最新免费小说更新<div class="more fr"><a class="more-link" href="http://book.zongheng.com/store/c0/c0/b0/u0/p1/v0/s9/t0/u0/i1/ALL.html" target="_blank">更多</a></div></span> | <span class="tabT">最新VIP小说更新<div class="more fr"><a class="more-link" href="http://book.zongheng.com/store/c0/c0/b0/u0/p1/v1/s9/t0/u0/i1/ALL.html" target="_blank">更多</a></div></span>
+                </div>
+            </div>
+            <div class="tabpanel tabC_wap" id="index_update_con">
+                <div class="tabC" style="display:block;">
+                    <div class="con">
+                        <div class="tab-head">
+                            <span class="kind">类别</span>
+                            <span class="bookname">书名</span>
+                            <span class="chap">章节</span>
+                            <span class="author">作者</span>
+                            <span class="count">字数</span>
+                            <span class="time">更新时间</span>
+                        </div>
+						<ul class="main_con"></ul>
+                    </div>
+                </div>
+                <div class="tabC">
+                    <div class="con">
+                        <div class="tab-head">
+                            <span class="kind">类别</span>
+                            <span class="bookname">书名</span>
+                            <span class="chap">章节</span>
+                            <span class="author">作者</span>
+                            <span class="count">字数</span>
+                            <span class="time">更新时间</span>
+                        </div>
+                        <ul class="main_con">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="limit-free">
+         
+            <div class="tab-lists-two">
+                <div class="top-title clearfix">
+                    <div class="title fl">限时免费</div>
+                </div>
+            </div>
+            <div class="h20-blank"></div>
+            <div class="h10-blank"></div>
+            <div class="limit-blank clearfix">
+                <div class="limit-today fl">
+                    <div class="limit-con">
+                        <div class="title">今日限免<span class="date-limittime" data-limittime="7438575"></span></div>
+                        <div class="limit-book clearfix">
+							
+                            <div class="free-book">
+                                <div class="imgbox free-img fl"><a href="http://book.zongheng.com/book/462043.html" target="_blank"><img src="{%static 'ireader/picture/1430021215706.jpg'%}" alt="灭天封神"></a></div>
+                                <div class="con">
+                                    <div class="tit"><a href="http://book.zongheng.com/book/462043.html" target="_blank" title="灭天封神">灭天封神</a></div>
+                                    <div class="cate"><a href="http://www.zongheng.com/category/1.html" target="_blank">奇幻玄幻</a><span>211.0万&nbsp;字</span></div>
+                                    <div class="free-price">5纵横币/千字</div>
+                                    <a href="http://book.zongheng.com/toread/462043.html" class="btn" target="_blank">免费阅读</a>
+                                </div>
+                            </div>
+                           
+                            <div class="free-book">
+                                <div class="imgbox free-img fl"><a href="http://book.zongheng.com/book/494489.html" target="_blank"><img src="{%static 'ireader/picture/1443975309907.jpg'%}" alt="嫡女为谋"></a></div>
+                                <div class="con">
+                                    <div class="tit"><a href="http://book.zongheng.com/book/494489.html" target="_blank" title="嫡女为谋">嫡女为谋</a></div>
+                                    <div class="cate"><a href="http://www.zongheng.com/category/32.html" target="_blank">古代言情</a><span>202.3万&nbsp;字</span></div>
+                                    <div class="free-price">5纵横币/千字</div>
+                                    <a href="http://book.zongheng.com/toread/494489.html" class="btn" target="_blank">免费阅读</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                 <div class="limit-next fr">
+                    <div class="limit-con">
+                        <div class="title">限免预告<span class="date">免费时间：2018.09.30 - 2018.10.01</span></div>
+                        <div class="limit-book clearfix">
+                          
+                            <div class="free-book">
+                                <div class="imgbox free-img fl"><a href="http://book.zongheng.com/book/591444.html" target="_blank"><img src="{%static 'ireader/picture/f23fae09d78a981269b027b0342a9921.jpeg'&}" alt="超强透视"></a></div>
+                                <div class="con">
+                                    <div class="tit"><a href="http://book.zongheng.com/book/591444.html"  target="_blank" title="超强透视">超强透视</a></div>
+                                    <div class="cate"><a href="http://www.zongheng.com/category/9.html" target="_blank">都市娱乐</a><span>118.6万&nbsp;字</span></div>
+                                    <div class="free-price">5纵横币/千字</div>
+                                    <a href="http://book.zongheng.com/book/591444.html" class="btn" target="_blank">书籍详情</a>
+                                </div>
+                            </div>
+                            
+                            <div class="free-book">
+                                <div class="imgbox free-img fl"><a href="http://book.zongheng.com/book/665737.html" target="_blank"><img src="{%static 'ireader/picture/a865a327bda3acb8748bf5850321339d.jpeg'%}" alt="嫡女倾城：王爷你有毒"></a></div>
+                                <div class="con">
+                                    <div class="tit"><a href="http://book.zongheng.com/book/665737.html"  target="_blank" title="嫡女倾城：王爷你有毒">嫡女倾城：王爷你有毒</a></div>
+                                    <div class="cate"><a href="http://www.zongheng.com/category/32.html" target="_blank">古代言情</a><span>216.5万&nbsp;字</span></div>
+                                    <div class="free-price">5纵横币/千字</div>
+                                    <a href="http://book.zongheng.com/book/665737.html" class="btn" target="_blank">书籍详情</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="h40-blank"></div>
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <div class="partner">
+                <div class="title">合作伙伴</div>
+                <div class="partner-first">
+                
+                <a href="http://huayu.baidu.com/" target="_blank">免费言情小说</a>
+                
+                </div>
+                <div class="partner-second">
+                
+                <a href="http://www.xmkanshu.com/" target="_blank">熊猫看书</a>
+                
+                <a href="http://huayu.baidu.com/" target="_blank">言情小说</a>
+                
+                <a href="http://www.zongheng.com/zt/chuanyue/" target="_blank">穿越小说</a>
+                
+                <a href="http://www.4yt.net" target="_blank">四月天女生网</a>
+                
+                <a href="http://www.zongheng.com/" target="_blank">好看的小说</a>
+                
+                <a href="http://www.rain8.com" target="_blank">雨枫轩</a>
+                
+                <a href="http://www.3gsc.com.cn/" target="_blank">3G书城</a>
+                
+                <a href="http://www.shuhai.com/" target="_blank">书海小说网</a>
+                
+                <a href="http://b.faloo.com/" target="_blank">飞卢小说网</a>
+                
+                <a href="http://www.lcread.com" target="_blank">连城读书</a>
+                
+                <a href="http://www.kanshu.com/" target="_blank">看书网</a>
+                
+                <a href="http://www.ltaaa.com" target="_blank">龙腾网</a>
+                
+                <a href="http://www.lkong.net/forum.php" target="_blank">龙的天空</a>
+                
+                <a href="http://www.manmankan.com/" target="_blank">漫漫看</a>
+                
+                <a href="http://www.pingshu8.com/" target="_blank">评书</a>
+                
+                <a href="http://book.ifeng.com/" target="_blank">凤凰网读书</a>
+                
+                <a href="http://www.mafengwo.cn/" target="_blank">蚂蜂窝旅游攻略</a>
+                
+                <a href="http://www.sxcnw.net/" target="_blank">书香电子书</a>
+                
+                <a href="http://www.yzmg.com/" target="_blank">亿智蘑菇</a>
+                
+                <a href="http://chuangshi.qq.com" target="_blank">创世中文网</a>
+                
+                <a href="http://www.duwenzhang.com/" target="_blank">文章阅读网</a>
+                
+                <a href="http://www.geyanw.com/" target="_blank">人生格言</a>
+                
+                <a href="http://www.hongshu.com/" target="_blank">红薯网</a>
+                
+                <a href="http://book.114la.com/" target="_blank">114啦小说</a>
+                
+                <a href="http://www.hiapk.com/" target="_blank">安卓网</a>
+                
+                <a href="http://www.cahuo.com" target="_blank">擦火阅读网</a>
+                
+                <a href="http://www.docin.com/" target="_blank">豆丁网</a>
+                
+                <a href="http://www.lingyun5.com/" target="_blank">凌云文学网</a>
+                
+                <a href="http://www.17k.com/" target="_blank">17k小说网</a>
+                
+                <a href="http://www.u148.net" target="_blank">有意思吧</a>
+                
+                <a href="http://www.yy8844.cn/" target="_blank">音乐下载</a>
+                
+                <a href="http://www.xialv.com" target="_blank">周边好玩</a>
+                
+                <a href="http://www.app111.com/" target="_blank">苹果园</a>
+                
+                <a href="http://www.kuman.com/" target="_blank">酷漫网</a>
+                
+                <a href="http://www.rongshuxia.com" target="_blank">华语文学榕树下</a>
+                
+                <a href="http://lol.178.com/" target="_blank">英雄联盟</a>
+                
+                <a href="http://pc.tgbus.com" target="_blank">巴士单机</a>
+                
+                <a href="http://acg.178.com/" target="_blank">178动漫</a>
+                
+                <a href="http://book.sfacg.com/" target="_blank">轻小说</a>
+                
+                <a href="http://yc.ireader.com.cn/" target="_blank">掌阅小说网</a>
+                
+                <a href="http://www.znds.com" target="_blank">智能电视网</a>
+                
+                <a href="http://www.ihuaben.com/" target="_blank">话本小说网</a>
+                
+                <a href="http://www.zongheng.com/sitemapIndex.xml" target="_blank">经典小说</a>
+                
+                <a href="http://book.qq.com/" target="_blank">腾讯文学</a>
+                
+                <a href="http://home.zongheng.com/show/userInfo/3172.html" target="_blank">烟雨江南作品集</a>
+                
+                <a href="http://www.xiang5.com" target="_blank">香网小说</a>
+                
+                <a href="http://www.xiazaiba.com" target="_blank">软件下载</a>
+                
+                <a href="http://www.yue365.com" target="_blank">365音乐网</a>
+                
+                <a href="http://www.kuwo.cn/" target="_blank">酷我音乐</a>
+                
+                <a href="http://book.kongfz.com/" target="_blank">网上买书网站</a>
+                
+                <a href="http://www.1ting.com" target="_blank">音乐</a>
+                
+                <a href="http://www.examw.com/" target="_blank">中华考试网</a>
+                
+                <a href="http://www.ithome.com/" target="_blank">IT之家</a>
+                
+                <a href="http://www.07073.com" target="_blank">07073网页游戏</a>
+                
+                <a href="http://www.zuowen.com" target="_blank">作文网</a>
+                
+                <a href="http://www.9ku.com" target="_blank">九酷音乐</a>
+                
+                <a href="http://www.23356.com" target="_blank">56网络歌曲</a>
+                
+                <a href="http://www.52tian.net/" target="_blank">动画片大全</a>
+                
+                <a href="http://www.mtv123.com" target="_blank">网络歌曲</a>
+                
+                <a href="http://www.51wan.com" target="_blank">51wan游戏</a>
+                
+                <a href="http://www.zongheng.com/company/link.html" target="_blank">更多</a>
+                
+                </div>
+            </div>
+        </div>
+    	
+
+<div class="partlink">
+    <div class="wrap">
+        <div class="title">出版合作联系</div>
+        <div class="clearfix">
+            <div class="mail fl">
+                
+                <div>版权合作联系人：许先生<a href="mailto:xubin@zongheng.com">xubin@zongheng.com</a></div>
+                
+                <div>广告合作联系人 : 张女士<a href="mailto:zhangwen@zongheng.com">zhangwen@zongheng.com</a></div>
+                
+            </div>
+            <div class="help-btn">
+                <a class="btn" href="http://www.zongheng.com/help/index.html" target="_blank">帮助中心</a>
+                <p>服务时间：24小时</p>
+            </div>
+            <div class="b1 foot-cell">
+                <div class="tit">客服</div>
+                <div class="qq">965151179</div>
+                <div class="email"><a href="mailto:zhkf@zongheng.com">zhkf@zongheng.com</a></div>
+            </div>
+            <div class="b2 foot-cell">
+                <div class="tit">举报</div>
+                <div class="tel">010-84933768</div>
+                <div class="email"><a href="mailto:jubao@zongheng.com">jubao@zongheng.com</a></div>
+            </div>
+            <div class="app foot-blank">
+                <div class="imgbox fl">
+                    <img src="{%static 'ireader/picture/app.png'%}" alt="">
+                </div>
+                <p>客户端下载</p>
+            </div>
+            <div class="wchat foot-blank">
+                <div class="imgbox fl">
+                    <img src="{%static 'ireader/picture/wx.png'%}" alt="">
+                </div>
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="links"><a href="http://www.zongheng.com/company/about.html" target="_blank">关于纵横</a>|<a href="http://www.zhwenxue.com/join" target="_blank">诚聘英才</a>|<a href="http://www.zongheng.com/company/business.html" target="_blank">商务合作</a>|<a href="http://www.zongheng.com/company/copyright.html" target="_blank">法律声明</a>|<a href="http://www.zongheng.com/help/index.html" target="_blank">帮助中心</a>|<a href="http://author.zongheng.com" target="_blank">作者投稿</a>|<a href="http://www.zongheng.com/company/contact.html" target="_blank">联系我们</a>|<a href="http://www.zongheng.com/company/link.html" target="_blank">友情链接</a>|<a href="http://news.zongheng.com/zhuanti/wlqz/index.html" target="_blank">谨防诈骗</a>|<a href="http://www.zongheng.com/company/sitemap.html" target="_blank">网站地图</a></div>
+    <p>Copyright©<a href="http://www.zongheng.com" target="_blank">www.zongheng.com</a>All Rights Reserved 版权所有 北京幻想纵横网络技术有限公司   京ICP证：080527号《网络文化经营许可证》   京ICP备11009265号   京网文[2015]2368-459号</p>
+    <p>新出发京零字第朝130010号  丨  统一社会信用代码91110105678221683F  丨 京公网安备  	11010502030124号  丨 公安部网络违法犯罪举报网站</p>
+    <p>纵横小说网,提供玄幻小说,都市小说,言情小说等免费小说阅读。作者发布小说作品时，请遵守国家互联网信息管理办法规定。</p>
+    <p>本站所收录小说作品、社区话题、书库评论均属其个人行为，不代表本站立场。</p>
+</div>
+
+<script type="text/javascript" src="{%static 'ireader/js/require.min_1.js'%}" defer async data-main="http://rcode.zongheng.com/v2018/js/map.min"></script>
+
+    </div>
+    </body>
+</html>
